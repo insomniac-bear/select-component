@@ -1,2 +1,8 @@
-const bodyElement = document.querySelector(`body`);
-bodyElement.textContent = `Hello, hello, hello`;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import SelectComponent from './components/select.jsx';
+
+ReactDOM.render(
+  <SelectComponent />,
+  document.querySelector(`#root`),
+);

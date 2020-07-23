@@ -1,0 +1,33 @@
+{
+  "name": "markup",
+  "version": "1.0.0",
+  "description": "scss, markcup",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "keywords": [
+    "scss",
+    "html",
+    "markup"
+  ],
+  "author": "Kirill Cherepanov (bear.wdev@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-sourcemaps": "^2.6.5",
+    "plumber": "^0.4.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
