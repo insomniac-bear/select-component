@@ -1,0 +1,17 @@
+# file and folders of OS
+.DS_Store
+Thumbs.db
+
+#Editors file
+.idea
+.vscode
+*.sublime*
+
+#system files
+*.log*
+node_modules
+/node_modules
+
+#building file
+public
+/public
